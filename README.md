@@ -18,5 +18,5 @@
 >5 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Project Information
-* Unzip the source (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into a folder on this project's git directory, Ex. D:\Getting-and-Cleaning-Data---Animesh\UCI HAR Dataset\
-* run_analysis.R into Ex. D:\Getting-and-Cleaning-Data---Animesh\
+* Unzip the source (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into a folder on this project's git directory, Ex. D:\Getting-and-Cleaning-Data\UCI HAR Dataset\
+* run_analysis.R into Ex. D:\Getting-and-Cleaning-Data\
