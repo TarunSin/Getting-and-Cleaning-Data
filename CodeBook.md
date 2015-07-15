@@ -24,15 +24,15 @@ Variable name       | Description
 
 Variable name       | Description
 --------------------|------------
-`variable`          | comlete name of the feature, 
-`value`             | the actual 
-`dimension`         | dimension of measurement
-`source`            | source of measurement
-`type`              | type of measurement
-`jerk`              | is 'Jerk' signal
-`magnitude`         | is 'Magnitude
+`variable`          | comlete name of the feature, Factor w/ 66 levels (eg. tBodyAcc-mean()-X) 
+`value`             | the actual value, num (range: -1:1)
+`dimension`         | dimension of measurement, Factor w/ 2 levels: `t` (Time) or `f` (Frequency)
+`source`            | source of measurement, Factor w/ 3 levels: `Body`,`BodyBody` or `Gravity`
+`type`              | type of measurement, Factor w/ 2 levels: `Acc` (accelerometer) or `Gyro` (gyroscope)
+`jerk`              | is 'Jerk' signal , Factor w/ 2 levels:  `Jerk` or `` (non Jerk)
+`magnitude`         | is 'Magnitude' value , Factor w/ 2 levels:  `Mag` or `` (non Mag)
 `method`            | result from method , Factor w/ 2 levels:  `mean` (average) or `std` (standard deviation)
-`axis`              | FFT exrapolated to axis
+`axis`              | FFT exrapolated to axis , Factor w/ 2 levels:  `` (no FFT-axis) or `X`, `Y` or `Z`
 
 ## `TidyData` variable
 
